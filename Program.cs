@@ -1,7 +1,4 @@
-﻿Random random = new Random();
-
-Console.WriteLine("Would you like to play? (Y/N)");
-if (ShouldPlay())
+﻿if (ShouldPlay())
 {
     PlayGame();
 }
@@ -9,43 +6,71 @@ if (ShouldPlay())
 void PlayGame()
 {
     var play = true;
+    Random random = new Random();
 
     while (play)
     {
-        var target;
-        var roll;
+        var target = random.Next(1, 5);
+        var roll = random.Next(1, 6);
 
         Console.WriteLine($"Roll a number greater than {target} to win!");
         Console.WriteLine($"You rolled a {roll}");
-        Console.WriteLine(WinOrLose());
-        Console.WriteLine("\nPlay again? (Y/N)");
+        Console.WriteLine(WinOrLose(target, roll));
 
         play = ShouldPlay();
+    }
+}
+
+string WinOrLose(int target, int roll)
+{
+    if (target < roll)
+    {
+        return "You win!";
+    }
+    else
+    {
+        return "You lose!";
     }
 }
 
 bool ShouldPlay()
 {
     string? userInput;
+    bool validInput = false;
+    bool choice = false;
 
     do
     {
+        Console.WriteLine("Would you like to play? (Y/N)");
         userInput = Console.ReadLine();
 
         if (userInput != null)
         {
             userInput = userInput.ToLower().Trim();
 
-            if(userInput == "y" || userInput == "yes")
+            if (userInput == "y" || userInput == "yes")
             {
-                return true;
+                choice = true;
+                Console.WriteLine("Playing now...");
+                validInput = true;
             }
             else if (userInput == "n" || userInput == "no")
             {
-                return false;
+                choice = false;
+                Console.WriteLine("Press a key to exit game...");
+                Console.ReadLine();
+                validInput = true;
             }
         }
-    } while (false);
+
+        if (!validInput)
+        {
+            Console.WriteLine("Invalid input, try again.");
+        }
+
+    } while (!validInput);
+
+    return choice;
 }
 
 //#############################################################
