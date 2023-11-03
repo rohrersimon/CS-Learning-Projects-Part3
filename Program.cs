@@ -3,6 +3,97 @@
 //#############################################################
 
 /*
+using System.Net.Mime;
+
+string[,] corporate =
+{
+    {"Robert", "Bavin"}, {"Simon", "Bright"},
+    {"Kim", "Sinclair"}, {"Aashrita", "Kamath"},
+    {"Sarah", "Delucchi"}, {"Sinan", "Ali"}
+};
+
+string[,] external =
+{
+    {"Vinnie", "Ashton"}, {"Cody", "Dysart"},
+    {"Shay", "Lawrence"}, {"Daren", "Valdes"}
+};
+
+string externalDomain = "hayworth.com";
+
+DisplayEmail(corporate);
+DisplayEmail(external, externalDomain);
+
+void DisplayEmail(string[,] names, string domain = "contoso.com")
+{
+    string emailaddress = "";
+
+    for (int i = 0; i < names.GetLength(0); i++)
+    {
+        emailaddress += names[i, 0].Substring(0, 2).ToLower();
+        emailaddress += names[i, 1].Substring(0, (names[i, 1].Length)).ToLower();
+        emailaddress += "@" + domain;
+        Console.WriteLine(emailaddress);
+        emailaddress = "";
+    }
+}
+*/
+
+//#############################################################
+
+/*
+string[] guestList = { "Rebecca", "Nadia", "Noor", "Jonte" };
+string[] rsvps = new string[10];
+int count = 0;
+
+RSVP("Rebecca");
+RSVP("Nadia", 2, "Nuts");
+RSVP(name: "Linh", partySize: 2, inviteOnly: false);
+RSVP("Tony", allergies: "Jackfruit", inviteOnly: true);
+RSVP("Noor", 4, inviteOnly: false);
+RSVP("Jonte", 2, "Stone fruit", false);
+RSVP(name: "Linh", partySize: 2, allergies: "none", inviteOnly: false);
+ShowRSVPs();
+
+void RSVP(string name, int partySize = 1, string allergies = "none", bool inviteOnly = true)
+{
+    if (inviteOnly)
+    {
+        if (inviteOnly)
+        {
+            bool found = false;
+            foreach (string guest in guestList)
+            {
+                if (guest.Equals(name))
+                {
+                    found = true;
+                    break;
+                }
+            }
+            if (!found)
+            {
+                Console.WriteLine($"Sorry, {name} is not on the guest list");
+                return;
+            }
+        }
+    }
+
+    rsvps[count] = $"Name: {name}, \tParty Size: {partySize}, \tAllergies: {allergies}";
+    count++;
+}
+
+void ShowRSVPs()
+{
+    Console.WriteLine("\nTotal RSVPs:");
+    for (int i = 0; i < count; i++)
+    {
+        Console.WriteLine(rsvps[i]);
+    }
+}
+*/
+
+//#############################################################
+
+/*
 Random random = new Random();
 int luck = random.Next(100);
 
