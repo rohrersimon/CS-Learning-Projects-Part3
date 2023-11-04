@@ -12,3 +12,17 @@ C:\Users\Simon Rohrer\OneDrive - SL Network Solutions\Documents\GitHub\CS-Learni
 C:\Users\Simon Rohrer\OneDrive - SL Network Solutions\Documents\GitHub\CS-Learning-Projects-Part3\obj\Debug\net7.0\CS-Learning-Projects-Part3.pdb
 C:\Users\Simon Rohrer\OneDrive - SL Network Solutions\Documents\GitHub\CS-Learning-Projects-Part3\obj\Debug\net7.0\CS-Learning-Projects-Part3.genruntimeconfig.cache
 C:\Users\Simon Rohrer\OneDrive - SL Network Solutions\Documents\GitHub\CS-Learning-Projects-Part3\obj\Debug\net7.0\ref\CS-Learning-Projects-Part3.dll
+C:\Users\Simon\OneDrive\OneNote Notebooks\GitHub\CS-Learning-Projects-Part3\bin\Debug\net7.0\CS-Learning-Projects-Part3.exe
+C:\Users\Simon\OneDrive\OneNote Notebooks\GitHub\CS-Learning-Projects-Part3\bin\Debug\net7.0\CS-Learning-Projects-Part3.deps.json
+C:\Users\Simon\OneDrive\OneNote Notebooks\GitHub\CS-Learning-Projects-Part3\bin\Debug\net7.0\CS-Learning-Projects-Part3.runtimeconfig.json
+C:\Users\Simon\OneDrive\OneNote Notebooks\GitHub\CS-Learning-Projects-Part3\bin\Debug\net7.0\CS-Learning-Projects-Part3.dll
+C:\Users\Simon\OneDrive\OneNote Notebooks\GitHub\CS-Learning-Projects-Part3\bin\Debug\net7.0\CS-Learning-Projects-Part3.pdb
+C:\Users\Simon\OneDrive\OneNote Notebooks\GitHub\CS-Learning-Projects-Part3\obj\Debug\net7.0\CS-Learning-Projects-Part3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Simon\OneDrive\OneNote Notebooks\GitHub\CS-Learning-Projects-Part3\obj\Debug\net7.0\CS-Learning-Projects-Part3.AssemblyInfoInputs.cache
+C:\Users\Simon\OneDrive\OneNote Notebooks\GitHub\CS-Learning-Projects-Part3\obj\Debug\net7.0\CS-Learning-Projects-Part3.AssemblyInfo.cs
+C:\Users\Simon\OneDrive\OneNote Notebooks\GitHub\CS-Learning-Projects-Part3\obj\Debug\net7.0\CS-Learning-Projects-Part3.csproj.CoreCompileInputs.cache
+C:\Users\Simon\OneDrive\OneNote Notebooks\GitHub\CS-Learning-Projects-Part3\obj\Debug\net7.0\CS-Learning-Projects-Part3.dll
+C:\Users\Simon\OneDrive\OneNote Notebooks\GitHub\CS-Learning-Projects-Part3\obj\Debug\net7.0\refint\CS-Learning-Projects-Part3.dll
+C:\Users\Simon\OneDrive\OneNote Notebooks\GitHub\CS-Learning-Projects-Part3\obj\Debug\net7.0\CS-Learning-Projects-Part3.pdb
+C:\Users\Simon\OneDrive\OneNote Notebooks\GitHub\CS-Learning-Projects-Part3\obj\Debug\net7.0\CS-Learning-Projects-Part3.genruntimeconfig.cache
+C:\Users\Simon\OneDrive\OneNote Notebooks\GitHub\CS-Learning-Projects-Part3\obj\Debug\net7.0\ref\CS-Learning-Projects-Part3.dll
